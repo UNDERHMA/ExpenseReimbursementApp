@@ -1,0 +1,40 @@
+INSERT INTO public.permissions
+(permission_name)
+VALUES ('Employee'),
+('Manager');
+
+
+INSERT INTO public.users
+(username, "password", permission_id, last_login)
+VALUES('Edward', 'password', 1, null),
+('Michael', 'password', 2, null),
+('Jason', 'password', 1, null),
+('Melinda', 'password', 2, null),
+('Kelly', 'password', 1, null);
+
+
+INSERT INTO public.accounts
+(first_name, middle_name, last_name, email, phone_number, user_id)
+VALUES('Edward', 'E', 'Employee', 'Employee@gmail.com', '585-555-5555', 1),
+('Michael', 'M', 'Manager', 'Manager@gmail.com', '585-555-5556', 2),
+('Jason', 'J', 'Johnson', 'JJohnson@gmail.com', '585-535-5556', 3),
+('Melinda', 'M', 'Matheson', 'MMatheson@gmail.com', '585-539-5556', 4),
+('Kelly', 'J', 'Simpson', 'KSimpson@gmail.com', '585-535-5456', 5);
+
+INSERT INTO public.reimbursementrequeststatuses
+(reimbursement_request_status_desc)
+VALUES('Pending'),
+('Approved'),
+('Denied')
+;
+
+INSERT INTO public.reimbursementrequests
+(account_submitted, account_reviewed, request_amount, request_description, reimbursement_request_status)
+VALUES(1,2,100.00,'Gas',2),
+(3,null,100.00,'Dinner with Client',1),
+(5,2,100.00,'Gym Membership',3),
+(5,2,100.00,'Travel',2),
+(3,4,100.00,'Hotel',3),
+(1,4,100.00,'Client Event',2),
+(1,4,100.00,'Gas',3),
+(1,null,500.00,'Dinner with Client',1);

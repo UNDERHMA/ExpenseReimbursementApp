@@ -1,0 +1,154 @@
+#app-content{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.request:hover{
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+thead{
+    background-color: lightgray;
+}
+
+.navbar-brand{
+    text-align: right;
+}
+
+#requests-table-container{
+    display: grid;
+}
+
+#hidden-description{
+    display: none;
+}
+
+#hidden-description td{
+    height: 175px;
+}
+
+#request-table{
+    table-layout: fixed;
+}
+
+#request-table td{
+    text-overflow: ellipsis; 
+    overflow-x: hidden;
+}
+
+#logout{
+    font-weight: bolder;
+}
+
+#login-invalid{
+    display: none;
+}
+
+#request-submitted{
+    margin-top: 50px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#request-failure{
+    margin-top: 50px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-form-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#login-button{
+    margin-top: 15px;
+    width: 65%;
+}
+
+#new-request-form-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#new-request-title{
+    margin-bottom: 40px;
+}
+
+#request-submit{
+    margin-top: 10px;
+    float: right;
+}
+
+#request-approved{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #009900;
+    border-color: black;
+}
+
+#request-denied{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff3300;
+    border-color: black;
+}
+
+#approve-or-deny{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+}
+
+#successful-approve-or-deny{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+#error-approve-or-deny{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+html, body
+{
+    min-height:100%;
+}
+
+#body{
+    margin-bottom: 150px;
+}
+
+#body-login{
+    height:80vh;
+}

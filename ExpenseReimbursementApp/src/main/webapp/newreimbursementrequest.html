@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./resources/css/template.css">
+        <link rel="stylesheet" type="text/css" href="./resources/bootstrap-4.0.0-dist (1)/css/bootstrap.css">
+        <script src="./resources/bootstrap-4.0.0-dist (1)/js/bootstrap.js"></script>
+    </head>
+    <body id="body">
+            <div class="container-fluid"></div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="employeehomescreen.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pendingreimbursementrequests.html">Pending Requests</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resolvedreimbursementrequests.html">Resolved Requests</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="newreimbursementrequest.html">New Request</a>
+                            </li>
+                            <li class="nav-item" id="logout">
+                                <a class="nav-link" href="logout">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div id="app-content">
+                <div id="new-request-form-body">
+                    <form id="new-request-form" onsubmit="return false;">
+                        <h3 id="new-request-title">New Reimbursement Request: </h3>
+                        <div class="form-group">
+                            <label for="amount">Amount Requested: </label>
+                            <input type="text" id="amount" name="amount"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="request-description">Reason for Reimbursement: </label>
+                            <textarea class="form-control" id="request-description" name="request-description" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="request-submit">Submit Request</button>
+                    </form>
+                </div>
+                <div id="request-submitted">
+                    <p>Your request has been successfully submitted.</p>
+                </div>
+                <div id="request-failure">
+                    <p>An error occurred. Please contact support.</p>
+                </div>
+            </div>
+            <script src="./js/newrequest.js"></script>
+    </body>
+</html>

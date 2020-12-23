@@ -1,0 +1,43 @@
+Create Table Permissions (
+	Primary key (permission_id),
+    permission_id serial NOT NULL,
+    permission_name varchar(50) NOT NULL
+);
+
+Create Table Users (
+	Primary key (user_id),
+    user_id serial NOT NULL,
+    username varchar(50) NOT NULL,
+    password varchar(50) NOT NULL,
+	permission_id int NOT NULL references Permissions,
+    last_login timestamp
+);
+
+Create Table Accounts (
+	Primary key (account_id),
+    account_id serial NOT NULL,
+    first_name varchar(50) NOT NULL,
+	middle_name varchar(50) NOT NULL,
+    last_name varchar(50) NOT NULL,
+    email varchar(50),
+	phone_number varchar(15) NOT NULL,
+	user_id int NOT NULL references Users
+);
+
+Create Table ReimbursementRequestStatuses (
+	Primary key (reimbursement_request_status_id),
+	reimbursement_request_status_id serial NOT null,
+    reimbursement_request_status_desc varchar(50) NOT NULL
+);
+
+
+Create Table ReimbursementRequests (
+	Primary key (reimbursement_request_id),
+    reimbursement_request_id serial NOT NULL,
+    account_submitted int NOT NULL references Accounts,
+    account_reviewed int NULL references Accounts,
+    request_amount Decimal NOT NULL,
+    request_description varchar(500) Not NULL,
+    reimbursement_request_status int NOT NULL references ReimbursementRequestStatuses
+);
+
