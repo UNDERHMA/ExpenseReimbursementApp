@@ -22,28 +22,28 @@ The front end javascript, html and css files reside in the src/main/webapp folde
 - The /resources folder includes css files, including the bootstrap css library
 - The root folder (/webapp) contains html files that display content
 
-##Here are some of the various views within the application:
+## Here are some of the various views within the application:
 
-###Login Page:
+### Login Page:
 
-![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/login.PNG)
+<kbd><img src="https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/login.PNG" /></kbd>
 
-###New Reimbursement Request Page for Employees:
+### New Reimbursement Request Page for Employees:
 
-![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/New%20Reimbursement%20Request.PNG)
+<kbd><img src="https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/New%20Reimbursement%20Request.PNG" /></kbd>
 
-###Pending Employee Reimbursement Request Page:
+### Pending Employee Reimbursement Request Page:
 
-![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Employee%20Reimbursement%20Requests.PNG)
+<kbd><img src="https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Employee%20Reimbursement%20Requests.PNG" /></kbd>
 
-###Resolved Employee Reimbursement Request Page:
+### Resolved Employee Reimbursement Request Page:
 
-![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Resolved%20Employee%20Reimbursement%20Requests.PNG)
+<kbd><img src="https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Resolved%20Employee%20Reimbursement%20Requests.PNG" /></kbd>
 
-###Manager Reimbursement Request Page - Approve or Deny:
+### Manager Reimbursement Request Page - Approve or Deny:
 
-![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Manager%20Requests%20View%2C%20Approve%20or%20Deny.PNG)
+<kbd><img src="https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Manager%20Requests%20View%2C%20Approve%20or%20Deny.PNG" /></kbd>
 
-###Manager Reimbursement Request Page - Approved:
+### Manager Reimbursement Request Page - Approved:
 
-![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Manager%20Requests%20View%2C%20After%20Approved.PNG)
+<kbd><img src="https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Manager%20Requests%20View%2C%20After%20Approved.PNG" /></kbd>
