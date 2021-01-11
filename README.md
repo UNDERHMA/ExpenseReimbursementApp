@@ -22,5 +22,28 @@ The front end javascript, html and css files reside in the src/main/webapp folde
 - The /resources folder includes css files, including the bootstrap css library
 - The root folder (/webapp) contains html files that display content
 
+##Here are some of the various views within the application:
 
+###Login Page:
 
+![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/login.PNG)
+
+###New Reimbursement Request Page for Employees:
+
+![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/New%20Reimbursement%20Request.PNG)
+
+###Pending Employee Reimbursement Request Page:
+
+![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Employee%20Reimbursement%20Requests.PNG)
+
+###Resolved Employee Reimbursement Request Page:
+
+![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Resolved%20Employee%20Reimbursement%20Requests.PNG)
+
+###Manager Reimbursement Request Page - Approve or Deny:
+
+![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Manager%20Requests%20View%2C%20Approve%20or%20Deny.PNG)
+
+###Manager Reimbursement Request Page - Approved:
+
+![alt text](https://github.com/UNDERHMA/ExpenseReimbursementApp/blob/main/images/Manager%20Requests%20View%2C%20After%20Approved.PNG)
